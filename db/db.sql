@@ -1,4 +1,17 @@
+CREATE DATABASE IF NOT EXISTS railway;
+
+USE railway:
+
 CREATE TABLE users (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(255) NOT NULL
 );
+
+CREATE TABLE employee (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    name VARCHAR(45) DEFAULT NULL,
+    salary INT(5) DEFAULT NULL,
+    PRIMARY  KEY (id)
+);
+
+DESCRIBE employee;
