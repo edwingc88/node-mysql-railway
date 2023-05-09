@@ -15,3 +15,5 @@ CREATE TABLE employee (
 );
 
 DESCRIBE employee;
+
+INSERT INTO employee VALUES (1,'Edwin',1000), (1,'Nieto',2000),(1,'Michelle',3000);
